@@ -23,6 +23,10 @@ def create_branch(name):
 
 def update_branch(message):
 	handle = subprocess.Popen(["./update.sh"]+ [str(message)])
+	handle.wait()
+
+def checkout_branch(name):
+	handle = subprocess.Popen(["./checkoutBranch.sh"]+ [str(name)])
 	handle.wait()	
 
 def checkout_master():

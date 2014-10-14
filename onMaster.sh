@@ -1,6 +1,7 @@
 #!/bin/sh
 
-cd /Users/water/tryBash
+. ./config.sh
+cd filePath
 branches=$(git branch)
 star="* master"
 while read -r line; do

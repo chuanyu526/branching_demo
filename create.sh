@@ -1,6 +1,7 @@
 #!/bin/sh
 
 
-cd /Users/water/tryBash
+. ./config.sh
+cd filePath
 git checkout -b "newBranch"
 
