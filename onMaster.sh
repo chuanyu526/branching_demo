@@ -1,7 +1,7 @@
 #!/bin/sh
 
 . ./config.sh
-cd filePath
+cd $filePath
 branches=$(git branch)
 star="* master"
 while read -r line; do

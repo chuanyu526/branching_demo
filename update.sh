@@ -2,7 +2,7 @@
 
 
 . ./config.sh
-cd filePath
+cd $filePath
 git add .
 git commit -m $1
 

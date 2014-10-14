@@ -2,7 +2,7 @@
 
 
 . ./config.sh
-cd filePath
+cd $filePath
 branches=$(git branch)
 while read -r line; do
     if [ "$1" == "$line" ]; then 

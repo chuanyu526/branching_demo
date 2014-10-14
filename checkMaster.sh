@@ -2,6 +2,6 @@
 
 
 . ./config.sh
-cd filePath
+cd $filePath
 git checkout master
 

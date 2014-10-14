@@ -2,5 +2,5 @@
 
 
 . ./config.sh
-cd filePath
+cd $filePath
 git checkout $1

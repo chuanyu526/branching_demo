@@ -12,11 +12,6 @@ def branch_exist(id):
 	else:
 		return True
 
-
-#print branch_exist("nswBranch")
-
-#def get_file():
-
 def create_branch(name):
 	handle = subprocess.Popen(["./create.sh"]+ [str(name)])
 	handle.wait()
@@ -41,14 +36,4 @@ def on_master():
 	else:
 		return True
 
-
-
-# if result == 0:
-# 	message = ['passin']
-# 	subprocess.call( [ "./update.sh" ] + message)
-# 	#send data 
-# else:
-# 	subprocess.call( [ "./create.sh" ] + name)
-# 	#send data
-# subprocess.call("./checkMaster.sh")
 # print "end"
